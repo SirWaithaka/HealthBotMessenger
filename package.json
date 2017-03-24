@@ -1,0 +1,30 @@
+{
+  "name": "HealthBot",
+  "version": "1.0.0",
+  "description": "Health Bot for messenger",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KWBryan/HealthBotMessenger.git"
+  },
+  "keywords": [
+    "messenger",
+    "bot",
+    "health"
+  ],
+  "author": "Kennedy Bryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KWBryan/HealthBotMessenger/issues"
+  },
+  "homepage": "https://github.com/KWBryan/HealthBotMessenger#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  }
+}
